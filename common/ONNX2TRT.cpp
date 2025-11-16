@@ -108,21 +108,35 @@ void Onnx2Ttr::onnxToTRTModel(Logger gLogger,const char* modelFile,         // n
   std::cout << "Total DLA Core : " << builder->getNbDLACores() << std::endl;
 
   enableDLA(config, gUseDLACore);
-  auto* engine = builder->buildSerializedNetwork(*network, *config);
-  assert(engine);
+  
+  // TensorRT 7.x compatible: buildEngineWithConfig instead of buildSerializedNetwork
+  ICudaEngine* engine = builder->buildEngineWithConfig(*network, *config);
+  assert(engine != nullptr && "Failed to build engine");
 
   // we can destroy the parser
   parser->destroy();
 
-  // serialize the engine, then close everything down
-  assert(engine != nullptr && "engine == nullptr");
+  // serialize the engine manually (TensorRT 7.x way)
+  IHostMemory* serializedModel = engine->serialize();
+  assert(serializedModel != nullptr && "Failed to serialize engine");
 
   std::ofstream p(out_trtfile, std::ios::binary);
   if (!p) 
   {
     std::cerr << "could not open plan output file" << std::endl;
+    serializedModel->destroy();
+    engine->destroy();
     return ;
   }
-  p.write(reinterpret_cast<const char*>(engine->data()), engine->size());
+  p.write(reinterpret_cast<const char*>(serializedModel->data()), serializedModel->size());
+  p.close();
+  
+  // cleanup
+  serializedModel->destroy();
+  engine->destroy();
+  network->destroy();
+  config->destroy();
+  builder->destroy();
+  
   return;
 }
