@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/irl-19/Stereo/build/cmake_install.cmake",
+		"/home/irl-19/Stereo/build/RAFTStereo/cmake_install.cmake",
+		"/home/irl-19/Stereo/build/RAFTStereo/src/cmake_install.cmake",
+		"/home/irl-19/Stereo/build/RAFTStereo/test/cmake_install.cmake",
+		"/home/irl-19/Stereo/build/Stereo_Calibration/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

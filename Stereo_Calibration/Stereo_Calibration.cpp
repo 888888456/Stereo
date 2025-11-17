@@ -219,8 +219,8 @@ void StitcingImages(cv::Mat &srcImg1, cv::Mat&srcImg2, std::string ImageName)
 }
 int main(int argc,char** argv)
 {
-	int numCornersHor = 8; // atoi(argv[1]);// 8;	//水平
-	int numCornersVer =11;//atoi(argv[2]);// 11;		//垂直
+	int numCornersHor = 6; // atoi(argv[1]);// 8;	//水平
+	int numCornersVer =9;//atoi(argv[2]);// 11;		//垂直
 	int numSquares =25;//atoi(argv[3]);// 25;
 	std::string rectifyImageSavePath = "Stereo_Calibration/rectifyImage";
 	std::string imagelistfn="stereo_calib.xml";

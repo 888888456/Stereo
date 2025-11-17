@@ -1,5 +1,6 @@
 #include"RAFTStereoAlgorithm.h"
 #include<iostream>
+#include <fstream>
 
 #include<chrono>
 int main()

@@ -1,0 +1,4330 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/irl-19/catkin_ws/devel/bin/"
+      - "/home/irl-19/catkin_ws/devel/sbin/"
+      - "/home/irl-19/catkin_ws/devel/"
+      - "/opt/ros/noetic/bin/"
+      - "/opt/ros/noetic/sbin/"
+      - "/opt/ros/noetic/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    searched_directories:
+      - "/home/irl-19/catkin_ws/devel/bin/uname"
+      - "/home/irl-19/catkin_ws/devel/sbin/uname"
+      - "/home/irl-19/catkin_ws/devel/uname"
+      - "/opt/ros/noetic/bin/uname"
+      - "/opt/ros/noetic/sbin/uname"
+      - "/opt/ros/noetic/uname"
+      - "/home/irl-19/anaconda3/envs/wr/bin/uname"
+      - "/usr/local/cuda-12.1/bin/uname"
+      - "/home/irl-19/anaconda3/condabin/uname"
+      - "/opt/ros/noetic/bin/uname"
+      - "/home/irl-19/.local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 5.15.0-139-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/irl-19/catkin_ws/devel/bin/"
+      - "/home/irl-19/catkin_ws/devel/sbin/"
+      - "/home/irl-19/catkin_ws/devel/"
+      - "/opt/ros/noetic/bin/"
+      - "/opt/ros/noetic/sbin/"
+      - "/opt/ros/noetic/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    searched_directories:
+      - "/home/irl-19/catkin_ws/devel/bin/gmake"
+      - "/home/irl-19/catkin_ws/devel/sbin/gmake"
+      - "/home/irl-19/catkin_ws/devel/gmake"
+      - "/opt/ros/noetic/bin/gmake"
+      - "/opt/ros/noetic/sbin/gmake"
+      - "/opt/ros/noetic/gmake"
+      - "/home/irl-19/anaconda3/envs/wr/bin/gmake"
+      - "/usr/local/cuda-12.1/bin/gmake"
+      - "/home/irl-19/anaconda3/condabin/gmake"
+      - "/opt/ros/noetic/bin/gmake"
+      - "/home/irl-19/.local/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/usr/bin/gmake"
+      - "/sbin/gmake"
+      - "/bin/gmake"
+      - "/usr/games/gmake"
+      - "/usr/local/games/gmake"
+      - "/snap/bin/gmake"
+      - "/usr/local/cuda/bin/gmake"
+      - "/home/irl-19/catkin_ws/devel/bin/make"
+      - "/home/irl-19/catkin_ws/devel/sbin/make"
+      - "/home/irl-19/catkin_ws/devel/make"
+      - "/opt/ros/noetic/bin/make"
+      - "/opt/ros/noetic/sbin/make"
+      - "/opt/ros/noetic/make"
+      - "/home/irl-19/anaconda3/envs/wr/bin/make"
+      - "/usr/local/cuda-12.1/bin/make"
+      - "/home/irl-19/anaconda3/condabin/make"
+      - "/opt/ros/noetic/bin/make"
+      - "/home/irl-19/.local/bin/make"
+      - "/usr/local/sbin/make"
+      - "/usr/local/bin/make"
+      - "/usr/sbin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/home/irl-19/catkin_ws/devel/bin/"
+      - "/home/irl-19/catkin_ws/devel/sbin/"
+      - "/home/irl-19/catkin_ws/devel/"
+      - "/opt/ros/noetic/bin/"
+      - "/opt/ros/noetic/sbin/"
+      - "/opt/ros/noetic/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    searched_directories:
+      - "/home/irl-19/catkin_ws/devel/bin/cc"
+      - "/home/irl-19/catkin_ws/devel/sbin/cc"
+      - "/home/irl-19/catkin_ws/devel/cc"
+      - "/opt/ros/noetic/bin/cc"
+      - "/opt/ros/noetic/sbin/cc"
+      - "/opt/ros/noetic/cc"
+      - "/home/irl-19/anaconda3/envs/wr/bin/cc"
+      - "/usr/local/cuda-12.1/bin/cc"
+      - "/home/irl-19/anaconda3/condabin/cc"
+      - "/opt/ros/noetic/bin/cc"
+      - "/home/irl-19/.local/bin/cc"
+      - "/usr/local/sbin/cc"
+      - "/usr/local/bin/cc"
+      - "/usr/sbin/cc"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/"
+    found: "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/irl-19/Stereo/build/CMakeFiles/4.1.2/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/irl-19/anaconda3/envs/wr/bin/dlltool"
+      - "/usr/local/cuda-12.1/bin/dlltool"
+      - "/home/irl-19/anaconda3/condabin/dlltool"
+      - "/opt/ros/noetic/bin/dlltool"
+      - "/home/irl-19/.local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+      - "/usr/local/cuda/bin/dlltool"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/irl-19/anaconda3/envs/wr/bin/tapi"
+      - "/usr/local/cuda-12.1/bin/tapi"
+      - "/home/irl-19/anaconda3/condabin/tapi"
+      - "/opt/ros/noetic/bin/tapi"
+      - "/home/irl-19/.local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+      - "/usr/local/cuda/bin/tapi"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-9.4"
+      - "gcc-ar-9"
+      - "gcc-ar9"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-9.4"
+      - "/home/irl-19/anaconda3/envs/wr/bin/gcc-ar-9.4"
+      - "/usr/local/cuda-12.1/bin/gcc-ar-9.4"
+      - "/home/irl-19/anaconda3/condabin/gcc-ar-9.4"
+      - "/opt/ros/noetic/bin/gcc-ar-9.4"
+      - "/home/irl-19/.local/bin/gcc-ar-9.4"
+      - "/usr/local/sbin/gcc-ar-9.4"
+      - "/usr/local/bin/gcc-ar-9.4"
+      - "/usr/sbin/gcc-ar-9.4"
+      - "/sbin/gcc-ar-9.4"
+      - "/bin/gcc-ar-9.4"
+      - "/usr/games/gcc-ar-9.4"
+      - "/usr/local/games/gcc-ar-9.4"
+      - "/snap/bin/gcc-ar-9.4"
+      - "/usr/local/cuda/bin/gcc-ar-9.4"
+    found: "/usr/bin/gcc-ar-9"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-9.4"
+      - "gcc-ranlib-9"
+      - "gcc-ranlib9"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-9.4"
+      - "/home/irl-19/anaconda3/envs/wr/bin/gcc-ranlib-9.4"
+      - "/usr/local/cuda-12.1/bin/gcc-ranlib-9.4"
+      - "/home/irl-19/anaconda3/condabin/gcc-ranlib-9.4"
+      - "/opt/ros/noetic/bin/gcc-ranlib-9.4"
+      - "/home/irl-19/.local/bin/gcc-ranlib-9.4"
+      - "/usr/local/sbin/gcc-ranlib-9.4"
+      - "/usr/local/bin/gcc-ranlib-9.4"
+      - "/usr/sbin/gcc-ranlib-9.4"
+      - "/sbin/gcc-ranlib-9.4"
+      - "/bin/gcc-ranlib-9.4"
+      - "/usr/games/gcc-ranlib-9.4"
+      - "/usr/local/games/gcc-ranlib-9.4"
+      - "/snap/bin/gcc-ranlib-9.4"
+      - "/usr/local/cuda/bin/gcc-ranlib-9.4"
+    found: "/usr/bin/gcc-ranlib-9"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/"
+    found: "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/irl-19/Stereo/build/CMakeFiles/4.1.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-9.4"
+      - "gcc-ar-9"
+      - "gcc-ar9"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-9.4"
+      - "/home/irl-19/anaconda3/envs/wr/bin/gcc-ar-9.4"
+      - "/usr/local/cuda-12.1/bin/gcc-ar-9.4"
+      - "/home/irl-19/anaconda3/condabin/gcc-ar-9.4"
+      - "/opt/ros/noetic/bin/gcc-ar-9.4"
+      - "/home/irl-19/.local/bin/gcc-ar-9.4"
+      - "/usr/local/sbin/gcc-ar-9.4"
+      - "/usr/local/bin/gcc-ar-9.4"
+      - "/usr/sbin/gcc-ar-9.4"
+      - "/sbin/gcc-ar-9.4"
+      - "/bin/gcc-ar-9.4"
+      - "/usr/games/gcc-ar-9.4"
+      - "/usr/local/games/gcc-ar-9.4"
+      - "/snap/bin/gcc-ar-9.4"
+      - "/usr/local/cuda/bin/gcc-ar-9.4"
+    found: "/usr/bin/gcc-ar-9"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-9.4"
+      - "gcc-ranlib-9"
+      - "gcc-ranlib9"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-9.4"
+      - "/home/irl-19/anaconda3/envs/wr/bin/gcc-ranlib-9.4"
+      - "/usr/local/cuda-12.1/bin/gcc-ranlib-9.4"
+      - "/home/irl-19/anaconda3/condabin/gcc-ranlib-9.4"
+      - "/opt/ros/noetic/bin/gcc-ranlib-9.4"
+      - "/home/irl-19/.local/bin/gcc-ranlib-9.4"
+      - "/usr/local/sbin/gcc-ranlib-9.4"
+      - "/usr/local/bin/gcc-ranlib-9.4"
+      - "/usr/sbin/gcc-ranlib-9.4"
+      - "/sbin/gcc-ranlib-9.4"
+      - "/bin/gcc-ranlib-9.4"
+      - "/usr/games/gcc-ranlib-9.4"
+      - "/usr/local/games/gcc-ranlib-9.4"
+      - "/snap/bin/gcc-ranlib-9.4"
+      - "/usr/local/cuda/bin/gcc-ranlib-9.4"
+    found: "/usr/bin/gcc-ranlib-9"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-YeZOcN"
+      binary: "/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-YeZOcN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-YeZOcN'
+        
+        Run Build Command(s): /home/irl-19/anaconda3/envs/wr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_82bd6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_82bd6.dir/build.make CMakeFiles/cmTC_82bd6.dir/build
+        make[1]: Entering directory '/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-YeZOcN'
+        Building C object CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o -c /home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccKj9uQu.s
+        GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        warning: GMP header version 6.2.0 differs from library version 6.3.0.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/9/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        warning: GMP header version 6.2.0 differs from library version 6.3.0.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o /tmp/ccKj9uQu.s
+        GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_82bd6
+        /home/irl-19/anaconda3/envs/wr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82bd6.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82bd6' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRoevDS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_82bd6 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 9.4.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRoevDS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_82bd6 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.34
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82bd6' '-mtune=generic' '-march=x86-64'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o -o cmTC_82bd6
+        make[1]: Leaving directory '/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-YeZOcN'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-YeZOcN']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/irl-19/anaconda3/envs/wr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_82bd6/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_82bd6.dir/build.make CMakeFiles/cmTC_82bd6.dir/build]
+        ignore line: [make[1]: Entering directory '/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-YeZOcN']
+        ignore line: [Building C object CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o -c /home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccKj9uQu.s]
+        ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [warning: GMP header version 6.2.0 differs from library version 6.3.0.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [warning: GMP header version 6.2.0 differs from library version 6.3.0.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o /tmp/ccKj9uQu.s]
+        ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_82bd6]
+        ignore line: [/home/irl-19/anaconda3/envs/wr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82bd6.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82bd6' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRoevDS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_82bd6 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccRoevDS.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_82bd6] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 9.4.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRoevDS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_82bd6 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_82bd6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.34
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-rrYioP"
+      binary: "/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-rrYioP"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-rrYioP'
+        
+        Run Build Command(s): /home/irl-19/anaconda3/envs/wr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_145c9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_145c9.dir/build.make CMakeFiles/cmTC_145c9.dir/build
+        make[1]: Entering directory '/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-rrYioP'
+        Building CXX object CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o -c /home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccpvHxJO.s
+        GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        warning: GMP header version 6.2.0 differs from library version 6.3.0.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/9
+         /usr/include/x86_64-linux-gnu/c++/9
+         /usr/include/c++/9/backward
+         /usr/lib/gcc/x86_64-linux-gnu/9/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+        
+        warning: GMP header version 6.2.0 differs from library version 6.3.0.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 3d1eba838554fa2348dba760e4770469
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpvHxJO.s
+        GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_145c9
+        /home/irl-19/anaconda3/envs/wr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_145c9.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_145c9' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqJhkuf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_145c9 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 9.4.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqJhkuf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_145c9 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.34
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_145c9' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_145c9
+        make[1]: Leaving directory '/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-rrYioP'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/9]
+          add: [/usr/include/x86_64-linux-gnu/c++/9]
+          add: [/usr/include/c++/9/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+        collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-rrYioP']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/irl-19/anaconda3/envs/wr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_145c9/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_145c9.dir/build.make CMakeFiles/cmTC_145c9.dir/build]
+        ignore line: [make[1]: Entering directory '/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-rrYioP']
+        ignore line: [Building CXX object CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o -c /home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccpvHxJO.s]
+        ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [warning: GMP header version 6.2.0 differs from library version 6.3.0.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/9]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+        ignore line: [ /usr/include/c++/9/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+        ignore line: []
+        ignore line: [warning: GMP header version 6.2.0 differs from library version 6.3.0.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 3d1eba838554fa2348dba760e4770469]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpvHxJO.s]
+        ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_145c9]
+        ignore line: [/home/irl-19/anaconda3/envs/wr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_145c9.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_145c9' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqJhkuf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_145c9 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccqJhkuf.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_145c9] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 9.4.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqJhkuf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_145c9 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. -v CMakeFiles/cmTC_145c9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.34
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "RAFTStereo/src/CMakeLists.txt:9 (find_package)"
+    name: "OpenCV"
+    configs:
+      -
+        filename: "OpenCVConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "opencv-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "OpenCV"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/irl-19/Stereo/build/CMakeFiles/pkgRedirects/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/irl-19/Stereo/build/CMakeFiles/pkgRedirects/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/irl-19/catkin_ws/devel/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/irl-19/catkin_ws/devel/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/ros/noetic/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/ros/noetic/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/irl-19/anaconda3/envs/wr/OpenCVConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/irl-19/anaconda3/envs/wr/opencv-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/irl-19/anaconda3/envs/wr/lib/cmake/opencv4/OpenCVConfig.cmake"
+      mode: "config"
+      version: "4.1.1"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:843 (find_program)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "program"
+    variable: "CUDA_TOOLKIT_ROOT_DIR_NVCC"
+    description: "Toolkit location."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nvcc"
+      - "nvcc.exe"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:855 (find_program)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "program"
+    variable: "CUDA_TOOLKIT_ROOT_DIR_NVCC"
+    description: "Toolkit location."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nvcc"
+      - "nvcc.exe"
+    candidate_directories:
+      - "/home/irl-19/catkin_ws/devel/bin/cuda/bin/"
+      - "/home/irl-19/catkin_ws/devel/bin/"
+      - "/home/irl-19/catkin_ws/devel/sbin/cuda/bin/"
+      - "/home/irl-19/catkin_ws/devel/sbin/"
+      - "/home/irl-19/catkin_ws/devel/cuda/bin/"
+      - "/home/irl-19/catkin_ws/devel/"
+      - "/opt/ros/noetic/bin/cuda/bin/"
+      - "/opt/ros/noetic/bin/"
+      - "/opt/ros/noetic/sbin/cuda/bin/"
+      - "/opt/ros/noetic/sbin/"
+      - "/opt/ros/noetic/cuda/bin/"
+      - "/opt/ros/noetic/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/cuda/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/cuda/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/cuda/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/cuda/bin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/cuda/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/cuda/bin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/cuda/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/cuda/bin/"
+      - "/usr/bin/"
+      - "/sbin/cuda/bin/"
+      - "/sbin/"
+      - "/bin/cuda/bin/"
+      - "/bin/"
+      - "/usr/games/cuda/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/cuda/bin/"
+      - "/usr/local/games/"
+      - "/snap/bin/cuda/bin/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/cuda/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/bin/cuda/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/cuda/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/"
+      - "/usr/bin/cuda/bin/"
+      - "/usr/bin/"
+      - "/usr/sbin/cuda/bin/"
+      - "/usr/sbin/"
+      - "/usr/cuda/bin/"
+      - "/usr/"
+      - "/bin/cuda/bin/"
+      - "/bin/"
+      - "/sbin/cuda/bin/"
+      - "/sbin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/cuda/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/sbin/cuda/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/sbin/"
+      - "/home/irl-19/anaconda3/envs/wr/cuda/bin/"
+      - "/home/irl-19/anaconda3/envs/wr/"
+      - "/usr/X11R6/bin/cuda/bin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/cuda/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/cuda/bin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/cuda/bin/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/cuda/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/cuda/bin/"
+      - "/usr/pkg/"
+      - "/opt/bin/cuda/bin/"
+      - "/opt/bin/"
+      - "/opt/sbin/cuda/bin/"
+      - "/opt/sbin/"
+      - "/opt/cuda/bin/"
+      - "/opt/"
+      - "/opt/cuda/bin/cuda/bin/"
+      - "/opt/cuda/bin/"
+    searched_directories:
+      - "/home/irl-19/catkin_ws/devel/bin/cuda/bin/nvcc"
+      - "/home/irl-19/catkin_ws/devel/bin/nvcc"
+      - "/home/irl-19/catkin_ws/devel/sbin/cuda/bin/nvcc"
+      - "/home/irl-19/catkin_ws/devel/sbin/nvcc"
+      - "/home/irl-19/catkin_ws/devel/cuda/bin/nvcc"
+      - "/home/irl-19/catkin_ws/devel/nvcc"
+      - "/opt/ros/noetic/bin/cuda/bin/nvcc"
+      - "/opt/ros/noetic/bin/nvcc"
+      - "/opt/ros/noetic/sbin/cuda/bin/nvcc"
+      - "/opt/ros/noetic/sbin/nvcc"
+      - "/opt/ros/noetic/cuda/bin/nvcc"
+      - "/opt/ros/noetic/nvcc"
+      - "/home/irl-19/anaconda3/envs/wr/bin/cuda/bin/nvcc"
+      - "/home/irl-19/anaconda3/envs/wr/bin/nvcc"
+      - "/usr/local/cuda-12.1/bin/cuda/bin/nvcc"
+      - "/usr/local/cuda-12.1/bin/nvcc"
+      - "/home/irl-19/anaconda3/condabin/cuda/bin/nvcc"
+      - "/home/irl-19/anaconda3/condabin/nvcc"
+      - "/opt/ros/noetic/bin/cuda/bin/nvcc"
+      - "/opt/ros/noetic/bin/nvcc"
+      - "/home/irl-19/.local/bin/cuda/bin/nvcc"
+      - "/home/irl-19/.local/bin/nvcc"
+      - "/usr/local/sbin/cuda/bin/nvcc"
+      - "/usr/local/sbin/nvcc"
+      - "/usr/local/bin/cuda/bin/nvcc"
+      - "/usr/local/bin/nvcc"
+      - "/usr/sbin/cuda/bin/nvcc"
+      - "/usr/sbin/nvcc"
+      - "/usr/bin/cuda/bin/nvcc"
+      - "/usr/bin/nvcc"
+      - "/sbin/cuda/bin/nvcc"
+      - "/sbin/nvcc"
+      - "/bin/cuda/bin/nvcc"
+      - "/bin/nvcc"
+      - "/usr/games/cuda/bin/nvcc"
+      - "/usr/games/nvcc"
+      - "/usr/local/games/cuda/bin/nvcc"
+      - "/usr/local/games/nvcc"
+      - "/snap/bin/cuda/bin/nvcc"
+      - "/snap/bin/nvcc"
+      - "/usr/local/cuda/bin/cuda/bin/nvcc"
+    found: "/usr/local/cuda/bin/nvcc"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:933 (find_program)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:943 (cuda_find_host_program)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "program"
+    variable: "CUDA_NVCC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nvcc"
+    candidate_directories:
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/cuda/bin64/"
+      - "/usr/local/cuda/"
+    found: "/usr/local/cuda/bin/nvcc"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:974 (find_path)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "path"
+    variable: "CUDA_TOOLKIT_INCLUDE"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "device_functions.h"
+    candidate_directories:
+      - "/usr/local/cuda/include/"
+      - "/usr/local/cuda/"
+    found: "/usr/local/cuda/include/"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1033 (cuda_find_library_local_first)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_CUDART_LIBRARY"
+    description: "\"cudart\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cudart"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libcudart.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1043 (cuda_find_library_local_first)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_cudart_static_LIBRARY"
+    description: "static CUDA runtime library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cudart_static"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libcudart_static.a"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1063 (cuda_find_library_local_first)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_cudadevrt_LIBRARY"
+    description: "\"cudadevrt\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cudadevrt"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libcudadevrt.a"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1077 (find_package)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-JGpdkM"
+      binary: "/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-JGpdkM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fPIC"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-JGpdkM'
+        
+        Run Build Command(s): /home/irl-19/anaconda3/envs/wr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b784c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b784c.dir/build.make CMakeFiles/cmTC_b784c.dir/build
+        make[1]: 进入目录“/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-JGpdkM”
+        Building C object CMakeFiles/cmTC_b784c.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIC  -o CMakeFiles/cmTC_b784c.dir/src.c.o -c /home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-JGpdkM/src.c
+        Linking C executable cmTC_b784c
+        /home/irl-19/anaconda3/envs/wr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b784c.dir/link.txt --verbose=1
+        /usr/bin/ld: CMakeFiles/cmTC_b784c.dir/src.c.o: in function `main':
+        src.c:(.text+0x46): undefined reference to `pthread_create'
+        /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+        /usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
+        /usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
+        collect2: error: ld returned 1 exit status
+        /usr/bin/cc -fPIC  CMakeFiles/cmTC_b784c.dir/src.c.o -o cmTC_b784c
+        make[1]: *** [CMakeFiles/cmTC_b784c.dir/build.make:102：cmTC_b784c] 错误 1
+        make[1]: 离开目录“/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-JGpdkM”
+        make: *** [Makefile:134：cmTC_b784c/fast] 错误 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1077 (find_package)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-D0CIjO"
+      binary: "/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-D0CIjO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fPIC"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-D0CIjO'
+        
+        Run Build Command(s): /home/irl-19/anaconda3/envs/wr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_10b5f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_10b5f.dir/build.make CMakeFiles/cmTC_10b5f.dir/build
+        make[1]: 进入目录“/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-D0CIjO”
+        Building C object CMakeFiles/cmTC_10b5f.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_10b5f.dir/CheckFunctionExists.c.o -c /home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-D0CIjO/CheckFunctionExists.c
+        Linking C executable cmTC_10b5f
+        /home/irl-19/anaconda3/envs/wr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10b5f.dir/link.txt --verbose=1
+        /usr/bin/ld: 找不到 -lpthreads
+        collect2: error: ld returned 1 exit status
+        /usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_10b5f.dir/CheckFunctionExists.c.o -o cmTC_10b5f  -lpthreads
+        make[1]: *** [CMakeFiles/cmTC_10b5f.dir/build.make:102：cmTC_10b5f] 错误 1
+        make[1]: 离开目录“/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-D0CIjO”
+        make: *** [Makefile:134：cmTC_10b5f/fast] 错误 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1077 (find_package)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-ZJsuqO"
+      binary: "/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-ZJsuqO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fPIC"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-ZJsuqO'
+        
+        Run Build Command(s): /home/irl-19/anaconda3/envs/wr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_89ab5/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_89ab5.dir/build.make CMakeFiles/cmTC_89ab5.dir/build
+        make[1]: 进入目录“/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-ZJsuqO”
+        Building C object CMakeFiles/cmTC_89ab5.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_89ab5.dir/CheckFunctionExists.c.o -c /home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-ZJsuqO/CheckFunctionExists.c
+        Linking C executable cmTC_89ab5
+        /home/irl-19/anaconda3/envs/wr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89ab5.dir/link.txt --verbose=1
+        /usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_89ab5.dir/CheckFunctionExists.c.o -o cmTC_89ab5  -lpthread
+        make[1]: 离开目录“/home/irl-19/Stereo/build/CMakeFiles/CMakeScratch/TryCompile-ZJsuqO”
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1082 (find_library)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_rt_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rt"
+    candidate_directories:
+      - "/home/irl-19/catkin_ws/devel/lib/x86_64-linux-gnu/"
+      - "/home/irl-19/catkin_ws/devel/lib/"
+      - "/home/irl-19/catkin_ws/devel/"
+      - "/opt/ros/noetic/lib/x86_64-linux-gnu/"
+      - "/opt/ros/noetic/lib/"
+      - "/opt/ros/noetic/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/home/irl-19/anaconda3/envs/wr/lib/x86_64-linux-gnu/"
+      - "/home/irl-19/anaconda3/envs/wr/lib/"
+      - "/home/irl-19/anaconda3/envs/wr/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/irl-19/catkin_ws/devel/lib/x86_64-linux-gnu/"
+      - "/home/irl-19/catkin_ws/devel/lib/"
+      - "/home/irl-19/catkin_ws/devel/"
+      - "/opt/ros/noetic/lib/x86_64-linux-gnu/"
+      - "/opt/ros/noetic/lib/"
+      - "/opt/ros/noetic/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+    found: "/usr/lib/x86_64-linux-gnu/librt.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1093 (cuda_find_library_local_first_with_path_ext)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_cupti_LIBRARY"
+    description: "\"cupti\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cupti"
+    candidate_directories:
+      - "/usr/local/cuda/extras/CUPTI/lib/x64/"
+      - "/usr/local/cuda/extras/CUPTI/lib64/"
+      - "/usr/local/cuda/extras/CUPTI/libx64/"
+      - "/usr/local/cuda/extras/CUPTI/lib/Win32/"
+      - "/usr/local/cuda/extras/CUPTI/lib/"
+      - "/usr/local/cuda/extras/CUPTI/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/extras/CUPTI/lib/x64/"
+    found: "/usr/local/cuda/extras/CUPTI/lib64/libcupti.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1128 (cuda_find_library_local_first)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_CUDA_LIBRARY"
+    description: "\"cuda\" library (older versions only)."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cuda"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1015 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1128 (cuda_find_library_local_first)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_CUDA_LIBRARY"
+    description: "\"cuda\" library (older versions only)."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cuda"
+    candidate_directories:
+      - "/home/irl-19/catkin_ws/devel/lib/x86_64-linux-gnu/"
+      - "/home/irl-19/catkin_ws/devel/lib/"
+      - "/home/irl-19/catkin_ws/devel/"
+      - "/opt/ros/noetic/lib/x86_64-linux-gnu/"
+      - "/opt/ros/noetic/lib/"
+      - "/opt/ros/noetic/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/x86_64-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/x86_64-linux-gnu/"
+      - "/lib/"
+      - "/home/irl-19/anaconda3/envs/wr/lib/x86_64-linux-gnu/"
+      - "/home/irl-19/anaconda3/envs/wr/lib/"
+      - "/home/irl-19/anaconda3/envs/wr/"
+      - "/usr/X11R6/lib/x86_64-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/x86_64-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/x86_64-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/nvidia-current/"
+    searched_directories:
+      - "/home/irl-19/catkin_ws/devel/lib/x86_64-linux-gnu/"
+      - "/home/irl-19/catkin_ws/devel/lib/"
+      - "/home/irl-19/catkin_ws/devel/"
+      - "/opt/ros/noetic/lib/x86_64-linux-gnu/"
+      - "/opt/ros/noetic/lib/"
+      - "/opt/ros/noetic/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/lib/x86_64-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+    found: "/usr/lib/x86_64-linux-gnu/libcuda.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1156 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_cufft_LIBRARY"
+    description: "\"cufft\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cufft"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libcufft.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1157 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_cublas_LIBRARY"
+    description: "\"cublas\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cublas"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libcublas.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1160 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_cusparse_LIBRARY"
+    description: "\"cusparse\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cusparse"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libcusparse.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1161 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_curand_LIBRARY"
+    description: "\"curand\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "curand"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libcurand.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1173 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_nvToolsExt_LIBRARY"
+    description: "\"nvToolsExt\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nvToolsExt"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libnvToolsExt.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1174 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_OpenCL_LIBRARY"
+    description: "\"OpenCL\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "OpenCL"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libOpenCL.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1179 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_nppc_LIBRARY"
+    description: "\"nppc\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nppc"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libnppc.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1180 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_nppial_LIBRARY"
+    description: "\"nppial\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nppial"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libnppial.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1181 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_nppicc_LIBRARY"
+    description: "\"nppicc\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nppicc"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libnppicc.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1187 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_nppidei_LIBRARY"
+    description: "\"nppidei\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nppidei"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libnppidei.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1188 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_nppif_LIBRARY"
+    description: "\"nppif\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nppif"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libnppif.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1189 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_nppig_LIBRARY"
+    description: "\"nppig\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nppig"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libnppig.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1190 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_nppim_LIBRARY"
+    description: "\"nppim\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nppim"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libnppim.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1191 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_nppist_LIBRARY"
+    description: "\"nppist\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nppist"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libnppist.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1192 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_nppisu_LIBRARY"
+    description: "\"nppisu\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nppisu"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libnppisu.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1193 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_nppitc_LIBRARY"
+    description: "\"nppitc\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nppitc"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libnppitc.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1194 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_npps_LIBRARY"
+    description: "\"npps\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "npps"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libnpps.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1004 (find_library)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1024 (cuda_find_library_local_first_with_path_ext)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1138 (cuda_find_library_local_first)"
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1207 (find_cuda_helper_libs)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "library"
+    variable: "CUDA_cusolver_LIBRARY"
+    description: "\"cusolver\" library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cusolver"
+    candidate_directories:
+      - "/usr/local/cuda/lib/x64/"
+      - "/usr/local/cuda/lib64/"
+      - "/usr/local/cuda/libx64/"
+      - "/usr/local/cuda/lib/Win32/"
+      - "/usr/local/cuda/lib/"
+      - "/usr/local/cuda/libWin32/"
+      - "/usr/local/cuda/"
+    searched_directories:
+      - "/usr/local/cuda/lib/x64/"
+    found: "/usr/local/cuda/lib64/libcusolver.so"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/irl-19/anaconda3/envs/wr/share/cmake-4.1/Modules/FindCUDA.cmake:1221 (find_path)"
+      - "RAFTStereo/src/CMakeLists.txt:10 (find_package)"
+    mode: "path"
+    variable: "CUDA_SDK_ROOT_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "common/inc/cutil.h"
+    candidate_directories:
+      - "/home/irl-19/catkin_ws/devel/include/x86_64-linux-gnu/"
+      - "/home/irl-19/catkin_ws/devel/include/"
+      - "/home/irl-19/catkin_ws/devel/"
+      - "/opt/ros/noetic/include/x86_64-linux-gnu/"
+      - "/opt/ros/noetic/include/"
+      - "/opt/ros/noetic/"
+      - "/C/"
+      - "/home/irl-19/anaconda3/envs/wr/bin/"
+      - "/usr/local/cuda-12.1/bin/"
+      - "/home/irl-19/anaconda3/condabin/"
+      - "/opt/ros/noetic/bin/"
+      - "/home/irl-19/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/cuda/bin/"
+      - "/usr/local/include/x86_64-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/x86_64-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/x86_64-linux-gnu/"
+      - "/include/"
+      - "/home/irl-19/anaconda3/envs/wr/include/x86_64-linux-gnu/"
+      - "/home/irl-19/anaconda3/envs/wr/include/"
+      - "/home/irl-19/anaconda3/envs/wr/"
+      - "/usr/X11R6/include/x86_64-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/x86_64-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/x86_64-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+      - "/Developer/GPU Computing/C/"
+    searched_directories:
+      - "/home/irl-19/catkin_ws/devel/include/x86_64-linux-gnu/common/inc/cutil.h"
+      - "/home/irl-19/catkin_ws/devel/include/common/inc/cutil.h"
+      - "/home/irl-19/catkin_ws/devel/common/inc/cutil.h"
+      - "/opt/ros/noetic/include/x86_64-linux-gnu/common/inc/cutil.h"
+      - "/opt/ros/noetic/include/common/inc/cutil.h"
+      - "/opt/ros/noetic/common/inc/cutil.h"
+      - "/C/common/inc/cutil.h"
+      - "/home/irl-19/anaconda3/envs/wr/bin/common/inc/cutil.h"
+      - "/usr/local/cuda-12.1/bin/common/inc/cutil.h"
+      - "/home/irl-19/anaconda3/condabin/common/inc/cutil.h"
+      - "/opt/ros/noetic/bin/common/inc/cutil.h"
+      - "/home/irl-19/.local/bin/common/inc/cutil.h"
+      - "/usr/local/sbin/common/inc/cutil.h"
+      - "/usr/local/bin/common/inc/cutil.h"
+      - "/usr/sbin/common/inc/cutil.h"
+      - "/usr/bin/common/inc/cutil.h"
+      - "/sbin/common/inc/cutil.h"
+      - "/bin/common/inc/cutil.h"
+      - "/usr/games/common/inc/cutil.h"
+      - "/usr/local/games/common/inc/cutil.h"
+      - "/snap/bin/common/inc/cutil.h"
+      - "/usr/local/cuda/bin/common/inc/cutil.h"
+      - "/usr/local/include/x86_64-linux-gnu/common/inc/cutil.h"
+      - "/usr/local/include/common/inc/cutil.h"
+      - "/usr/local/common/inc/cutil.h"
+      - "/usr/include/x86_64-linux-gnu/common/inc/cutil.h"
+      - "/usr/include/common/inc/cutil.h"
+      - "/usr/common/inc/cutil.h"
+      - "/include/x86_64-linux-gnu/common/inc/cutil.h"
+      - "/include/common/inc/cutil.h"
+      - "/home/irl-19/anaconda3/envs/wr/include/x86_64-linux-gnu/common/inc/cutil.h"
+      - "/home/irl-19/anaconda3/envs/wr/include/common/inc/cutil.h"
+      - "/home/irl-19/anaconda3/envs/wr/common/inc/cutil.h"
+      - "/usr/X11R6/include/x86_64-linux-gnu/common/inc/cutil.h"
+      - "/usr/X11R6/include/common/inc/cutil.h"
+      - "/usr/X11R6/common/inc/cutil.h"
+      - "/usr/pkg/include/x86_64-linux-gnu/common/inc/cutil.h"
+      - "/usr/pkg/include/common/inc/cutil.h"
+      - "/usr/pkg/common/inc/cutil.h"
+      - "/opt/include/x86_64-linux-gnu/common/inc/cutil.h"
+      - "/opt/include/common/inc/cutil.h"
+      - "/opt/common/inc/cutil.h"
+      - "/usr/include/X11/common/inc/cutil.h"
+      - "/Developer/GPU Computing/C/common/inc/cutil.h"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home/irl-19/catkin_ws/devel"
+        - "/opt/ros/noetic"
+      ENV{PATH}:
+        - "/home/irl-19/anaconda3/envs/wr/bin"
+        - "/usr/local/cuda-12.1/bin"
+        - "/home/irl-19/anaconda3/condabin"
+        - "/opt/ros/noetic/bin"
+        - "/home/irl-19/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/usr/local/cuda/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/irl-19/anaconda3/envs/wr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+...
